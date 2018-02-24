@@ -10,10 +10,10 @@ class CoinList extends Component {
 					{coinData.name}
 				</td>
 				<td>
-					${accounting.formatNumber(coinData.market_cap_usd)}
+					${accounting.formatNumber(coinData.market_cap_aud)}
 				</td>
 				<td>
-					{accounting.formatMoney(coinData.price_usd)}
+					{accounting.formatMoney(coinData.price_aud)}
 				</td>
 				<td>
 					&nbsp;{accounting.formatNumber(coinData.percent_change_24h)} /
