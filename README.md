@@ -9,7 +9,7 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 
 ```
 > git clone https://github.com/tangod0wn/ausmarketcap.git
-> cd coinmarketcap
+> cd ausmarketcap
 > npm install
 > npm start
 ```
