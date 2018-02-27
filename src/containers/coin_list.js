@@ -4,8 +4,14 @@ import { accounting } from 'accounting';
 
 class CoinList extends Component {
 	renderCoin(coinData){
+
+		var index = coinData.percent_change_24h.index;
+		console.log(index)
 		return (
 			<tr key={coinData.symbol}>
+				<td>
+					{coinData.rank}
+				</td>
 				<td>
 					{coinData.name}
 				</td>
@@ -37,6 +43,7 @@ class CoinList extends Component {
 			<table className="table table-hover">
 				<thead>
 					<tr>
+						<th>#</th>
 						<th>Coin Name</th>
 						<th>Market Cap</th>
 						<th>Price</th>
@@ -54,6 +61,7 @@ class CoinList extends Component {
 						<th>Top Ten</th>
 					</tr>
 					<tr>
+						<th>#</th>
 						<th>Coin Name</th>
 						<th>Market Cap</th>
 						<th>Price (AUD)</th>

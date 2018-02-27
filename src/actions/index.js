@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 //Create an action creator that will be responsible for manking an api request.
-const API_ENDPOINT_TOP10 = "https://api.coinmarketcap.com/v1/ticker/?convert=AUD&limit=50";
+const API_ENDPOINT_TOP10 = "https://api.coinmarketcap.com/v1/ticker/?convert=AUD&limit=200";
 const API_ENDPOINT_COIN = "https://api.coinmarketcap.com/v1/ticker/";
 
 export const FETCH_COIN = 'FETCH_COIN';
