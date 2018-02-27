@@ -1,0 +1,11 @@
+.cryptoIcon{width: 20px; height: 20px; margin-right: 8px; background-image: url('../img/top10.png'); background-repeat: no-repeat;display: inline-block;background-position: 0 0; }
+.c_Bitcoin { background-position: -0px -20px; }
+.c_Ethereum { background-position: -0px -40px; }
+.c_Ripple { background-position: -0px -60px; }
+.c_Bitcoin-cash { background-position: -0px -80px; }
+.c_Litecoin { background-position: -0px -100px; }
+.c_Neo { background-position: -0px -120px; }
+.c_Cardano { background-position: -0px -140px; }
+.c_Stellar { background-position: -0px -160px; }
+.c_Eos { background-position: -0px -180px; }
+.c_Iota { background-position: -0px -200px ; }

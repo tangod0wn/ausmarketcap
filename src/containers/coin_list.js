@@ -13,6 +13,7 @@ class CoinList extends Component {
 					{coinData.rank}
 				</td>
 				<td>
+					<span className={` cryptoIcon middle c_${coinData.name}`}></span>
 					{coinData.name}
 				</td>
 				<td>
@@ -24,6 +25,7 @@ class CoinList extends Component {
 				<td>
 					&nbsp;{coinData.percent_change_24h} /
 					&nbsp;{coinData.percent_change_7d}
+
 				</td>
 			</tr>
 		);
